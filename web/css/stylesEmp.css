@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f2f2;
+  font-family: "Roboto";
+  border-top: 30px solid #303F9F;
+}
+
+.wrap {
+  width: 90%;
+  max-width: 500px;
+  padding: 40px;
+  margin: auto;
+  background: white;
+  box-shadow: 0px 0px 3px grey;
+}
+
+.contenedor{
+  width: 100%;
+  color: #f2f2f2;
+  padding: 50px;
+}
+
+.contenedor .main {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 32px;
+}
+
+.contenedor .titulo{
+  text-align: center;
+  font-family: "Roboto";
+  font-size: 15px;
+  color: #303F9F;
+  width: 100%;
+  outline: none;
+  padding: 15px;
+  padding-bottom: 5px;
+  background: none;
+}
+
+.contenedor .main .label{
+  color: black;
+  font-weight: bold;
+}
+
+.contenedor .main .label .contenido{
+  color: #303F9F;
+  text-align: right;
+  font-family: "Roboto";
+  font-weight: normal;
+}
+
+.contenedor .enlace
+{
+  text-align: center;
+  background: #303F9F;
+  border-radius: 1px;
+  border: 2px solid #f2f2f2;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Roboto";
+  font-size: 16px;
+  padding: 15px;
+  width: 100%;
+  text-decoration: none;
+}
+.contenedor .enlace:hover
+{
+  background: #1976D2;
+}
